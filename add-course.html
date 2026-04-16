@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Course | Personal Course Organizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Add New Course</h1>
+        <p>Expand your knowledge base</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="courses.html">My Courses</a>
+        <a href="add-course.html">Add Course</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+
+    <main>
+        <section class="form-section">
+            <h2>Course Details</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="cname">Course Name</label>
+                    <input type="text" id="cname" name="cname" placeholder="Enter course name..." required>
+                </div>
+
+                <div class="form-group">
+                    <label for="instructor">Instructor Name</label>
+                    <input type="text" id="instructor" name="instructor" placeholder="Enter instructor's name..." required>
+                </div>
+
+                <div class="form-group">
+                    <label for="hours">Credit Hours</label>
+                    <input type="number" id="hours" name="hours" placeholder="e.g., 3" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="notes">Additional Notes</label>
+                    <textarea id="notes" name="notes" placeholder="Enter your notes here..." rows="5"></textarea>
+                </div>
+
+                <button type="submit" class="btn-submit">Register Course</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Student Project</p>
+    </footer>
+
+</body>
+</html>
